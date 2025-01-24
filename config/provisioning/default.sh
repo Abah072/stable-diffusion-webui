@@ -32,6 +32,7 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
+    "https://huggingface.co/Romanos575/prefectPonyXL_v4/resolve/main/prefectPonyXL_v40.safetensors"
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     "https://civitai.com/api/download/models/1047139?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
