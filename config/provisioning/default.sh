@@ -34,22 +34,22 @@ EXTENSIONS=(
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Romanos575/prefectPonyXL_v4/resolve/main/prefectPonyXL_v40.safetensors"
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    "https://civitai.com/api/download/models/1047139?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL/resolve/main/ponyDiffusionV6XL_v6StartWithThisOne.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/556144?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/691705?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/1007333?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/556144?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/691705?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/1007333?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
+    #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
@@ -59,8 +59,8 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    #"https://huggingface.co/lllyasviel/ControlNet-v1-1/blob/main/control_v11p_sd15_lineart.pth"
-    #"https://huggingface.co/lllyasviel/control_v11p_sd15_lineart/blob/main/diffusion_pytorch_model.safetensors"
+    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_full.safetensors"
+    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_full.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
     "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
